@@ -7,14 +7,15 @@
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>default.html</welcome-file>
     <welcome-file>default.htm</welcome-file>
-    <welcome-file>/WEB-INF/login.jsp</welcome-file>
+    <welcome-file>/WEB-INF/table.jsp</welcome-file>
   </welcome-file-list>
+
   <login-config>
     <auth-method>FORM</auth-method>
     <realm-name>hogeWebApp</realm-name>
     <form-login-config>
-      <form-login-page>/login.jsp</form-login-page>
-      <form-error-page>/error.jsp</form-error-page>
+      <form-login-page>/WEB-INF/login.jsp</form-login-page>
+      <form-error-page>/WEB-INF/error.jsp</form-error-page>
     </form-login-config>
   </login-config>
 </web-app>
