@@ -5,9 +5,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" href="static/css/bootstrap.css">
+<link rel="stylesheet" href="static/css/style.css">
+<link rel="stylesheet" href="static/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-2.2.4.js"
+	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+	crossorigin="anonymous"></script>
+<script src="static/js/tether.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<div class="container">
 	<table border=1>
 
 		<tr>
@@ -43,5 +51,6 @@
 </select>　　<input type="text"></p><label>ex</label></td>
 		</tr>
 	</table>
+	</div>
 </body>
 </html>

@@ -15,8 +15,9 @@
 <script src="static/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<button type="button" class="btn btn-primary">Primary</button>
-<div class="row col-md-10 col-lg-10">
+<%@ include file="/WEB-INF/Header.jsp" %>
+
+<div class="row col-md-10 col-lg-10 title-row">
 	<div class="offset-lg-2 offset-md-1 col-md-6 col-lg-6">
 		<h3>契約管理</h3>
 	</div>
@@ -27,13 +28,13 @@
 <div class="col-md-10 col-lg-10">
 	<div class="row">
 		<div class="offset-lg-2 col-sm-3 col-md-3 col-lg-3">
-			<div class="card card-blue card-widget borderC">
+			<div class="card card-blue card-widget borderC-application">
 				<a href="#" onclick="alert('出た！');return false;">
 					<div class="row no-padding border">
-						<div class="col-sm-5 col-lg-5 widget-left">
-							<i class="fa fa-automobile"></i>
+						<div class="col-sm-5 col-lg-5 widget-left-application">
+							<i class="fa fa-file fa-3x"></i>
 						</div>
-						<div class="col-sm-7 col-lg-7 widget-right large align-center">
+						<div class="col-sm-7 col-lg-7 widget-right-application large align-center">
 							<p>新規試算</p>
 						</div>
 					</div>
@@ -41,14 +42,13 @@
 			</div>
 		</div>
 		<div class="col-md-3 col-lg-3">
-			<div class="card card-blue card-widget borderC">
+			<div class="card card-blue card-widget borderC-allocation">
 				<a href="#" onclick="alert('出た！');return false;">
 					<div class="row no-padding border">
-						<div class="col-sm-5 col-lg-5 widget-left">
-							<span class="glyphicon glyphicon-exclamation-sign size"
-								aria-hidden="true"></span>
+						<div class="col-sm-5 col-lg-5 widget-left-allocation">
+							<i class="fa fa-inbox fa-3x"></i>
 						</div>
-						<div class="col-sm-7 col-lg-7 widget-right large align-center">
+						<div class="col-sm-7 col-lg-7 widget-right-allocation large align-center">
 							<p>計上</p>
 						</div>
 					</div>
@@ -56,14 +56,13 @@
 			</div>
 		</div>
 		<div class="offset-lg-1 col-md-3 col-lg-3">
-			<div class="card card-blue card-widget borderC">
+			<div class="card card-blue card-widget borderC-accident">
 				<a href="#" onclick="alert('出た！');return false;">
 					<div class="row no-padding border">
-						<div class="col-sm-5 col-lg-5 widget-left">
-							<span class="glyphicon glyphicon-exclamation-sign size"
-								aria-hidden="true"></span>
+						<div class="col-sm-5 col-lg-5 widget-left-accident">
+							<i class="fa fa-ambulance fa-3x"></i>
 						</div>
-						<div class="col-sm-7 col-lg-7 widget-right large align-center">
+						<div class="col-sm-7 col-lg-7 widget-right-accident large align-center">
 							<p>事故対応</p>
 						</div>
 					</div>
@@ -73,14 +72,13 @@
 	</div>
 	<div class="row margin-top-bottom">
 		<div class="offset-lg-2 col-sm-3 col-md-3 col-lg-3">
-			<div class="card card-blue card-widget borderC">
+			<div class="card card-blue card-widget borderC-inquiry">
 				<a href="#" onclick="alert('出た！');return false;">
 					<div class="row no-padding border">
-						<div class="col-sm-5 col-lg-5 widget-left">
-							<span class="glyphicon glyphicon-exclamation-sign size"
-								aria-hidden="true"></span>
+						<div class="col-sm-5 col-lg-5 widget-left-inquiry">
+							<i class="fa fa-search fa-3x"></i>
 						</div>
-						<div class="col-sm-7 col-lg-7 widget-right large align-center">
+						<div class="col-sm-7 col-lg-7 widget-right-inquiry large align-center">
 							<p>
 								契約内容<br>照会
 							</p>
@@ -90,14 +88,13 @@
 			</div>
 		</div>
 		<div class="col-sm-3 col-md-3 col-lg-3">
-			<div class="card card-blue card-widget borderC">
+			<div class="card card-blue card-widget borderC-cancel">
 				<a href="#" onclick="alert('出た！');return false;">
 					<div class="row no-padding border">
-						<div class="col-sm-5 col-lg-5 widget-left">
-							<span class="glyphicon glyphicon-exclamation-sign size"
-								aria-hidden="true"></span>
+						<div class="col-sm-5 col-lg-5 widget-left-cancel">
+							<i class="fa fa-user-times fa-3x"></i>
 						</div>
-						<div class="col-sm-7 col-lg-7 widget-right large align-center">
+						<div class="col-sm-7 col-lg-7 widget-right-cancel large align-center">
 							<p>解約</p>
 						</div>
 					</div>
@@ -106,5 +103,7 @@
 		</div>
 	</div>
 </div>
+<%@ include file="/WEB-INF/Fotter.jsp" %>
+
 </body>
 </html>
