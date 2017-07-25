@@ -12,6 +12,7 @@
 	crossorigin="anonymous"></script>
 <script src="static/js/tether.min.js"></script>
 <script src="static/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -24,7 +25,7 @@
 			else {
 				return false;
 			}" >
-			▶︎TOP</a>　　▶︎新規試算　▶︎計上　▶︎契約内容照会　▶︎解約　▶︎事故対応
+			▶︎TOP</a>　　<label class="top">▶︎新規試算　▶︎計上　▶︎契約内容照会　▶︎解約</label>　▶︎事故対応
 		</div>
 
 	</div>

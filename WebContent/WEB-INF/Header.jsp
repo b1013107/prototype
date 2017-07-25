@@ -12,6 +12,8 @@
 	crossorigin="anonymous"></script>
 <script src="static/js/tether.min.js"></script>
 <script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/common.js"></script>
+
 </head>
 <body>
 	<div class="header">
@@ -24,10 +26,8 @@
 						class="fa fa-home fa-3x"></i><br> topに戻る
 					</a>
 				</div>
-				<div class="col-lg-6">
-					<a href="#" onclick="alert('出た！');return false;"> <i
-						class="fa fa-times-circle-o fa-3x"></i><br> 画面を閉じる
-					</a>
+				<div id="windowclose" class="col-lg-6">
+					<i class="fa fa-times-circle-o fa-3x"></i><br> 画面を閉じる
 				</div>
 			</div>
 		</div>
