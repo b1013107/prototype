@@ -17,29 +17,28 @@
 </head>
 <body>
 
-<center>
-<h1>LOGIN</h1>
 
- <c:out value="${requestScope.error}" />
-<p>Please enter your ID and password</p>
+<h2>ログイン</h2>
 
 <form method="POST" action="j_security_check" name="loginform">
 <table>
 <tr>
-<td>user ID</td>
-<td><input type="text" name="j_username" size="32"></td>
+<td class="td-head">ID
+<div class="required"><img src="static/img/required.png"></div>
+</td>
+<td class="td-data"><input type="text" name="j_username" size="32"></td>
 </tr>
 <tr>
-<td>password</td>
-<td><input type="password" name="j_password" size="32"></td>
+<td class="td-head">パスワード
+<div class="required"><img src="static/img/required.png"></div>
+</td>
+<td class="td-data"><input type="password" name="j_password" size="32"></td>
 </tr>
 <tr>
-<td><input type="submit" value="login"></td>
-<td><input type="reset" value="reset"></td>
+<td><button type="submit" class="btn btn-primary button-center">ログイン</button></td>
 </tr>
 </table>
 </form>
-</center>
 
 </body>
 </html>
